@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(215, 195, 203);
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    h1 {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    p{
+    
+    }
+    
+    .kuva {
+    border: 3px solid rgb(180, 104, 174)
+    
+
+    }
+    .logo {
+
+        border: 5px solid rgb(39, 5, 11)
+    }
+    
+    figure {
+    
+    }
+
+    /* unvisited link */
+a:link {
+    color: red;
+    border-style: dotted rgb(63, 9, 18);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
