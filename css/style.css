@@ -5,17 +5,30 @@ body {
     }
     
     h1 {
+    border: solid 2px rgb(184, 22, 22); 
+    text-transform: uppercase;      
     margin-top: 10px;
     margin-left: 5px;
-    font-size: 25px;
+    font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+    width: 50%;
     }
+
+   
     
     p{
     
     }
+
+    img { 
+        border: 1px solid red;
+        padding: 10px;
+        width: 250px;
+        opacity: 0.5;
+    }
     
-    .kuva {
+   /* .kuva {
     border: 3px solid rgb(180, 104, 174)
     
 
@@ -31,16 +44,16 @@ body {
 
     /* unvisited link */
 a:link {
-    color: red;
-    border-style: dotted rgb(63, 9, 18);
+    color: rgb(250, 0, 0);
+    border-style: dotted rgb(255, 4, 46);
   }
   
   /* mouse over link */
   a:hover {
-    color: hotpink;
+    color: rgb(20, 11, 187);
   }
   
   /* selected link */
   a:active {
-    color: blue;
+    color: rgb(246, 20, 20);
   }
