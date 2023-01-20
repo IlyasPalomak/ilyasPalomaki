@@ -28,32 +28,18 @@ body {
         opacity: 0.5;
     }
     
-   /* .kuva {
-    border: 3px solid rgb(180, 104, 174)
-    
 
-    }
-    .logo {
-
-        border: 5px solid rgb(39, 5, 11)
-    }
-    
-    figure {
-    
-    }
-
-    /* unvisited link */
 a:link {
     color: rgb(250, 0, 0);
     border-style: dotted rgb(255, 4, 46);
   }
   
-  /* mouse over link */
+  
   a:hover {
     color: rgb(20, 11, 187);
   }
   
-  /* selected link */
+
   a:active {
     color: rgb(246, 20, 20);
   }
