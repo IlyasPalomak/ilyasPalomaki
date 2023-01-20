@@ -56,6 +56,13 @@ body {
         border: 2px solid grey;
       }
 
-      .color{
-        background-color: blue;
+      .color1{
+        background-color: rgb(31, 31, 154);
+      }
+
+      .color2{
+        background-color: rgb(163, 46, 46);
+      }
+      .color3{
+        background-color: rgb(98, 164, 47);
       }
