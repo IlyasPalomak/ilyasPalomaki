@@ -3,6 +3,53 @@ body {
     font-size: 14px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
+    section {
+      display: flex;
+      flex-direction: column;
+      flex-wrap:wrap;
+      flex: 200px
+      
+    }
+
+    .main {
+
+      display:flex;
+      
+     
+    }
+.sidebar{
+  display: flex;
+}
+    section {
+      display: flex;
+      flex-direction: column;
+    }
+     sidebar {
+      margin: 10px;
+      background-color: aliceblue;
+      min-width: 200px;
+     } 
+
+    article {
+      flex:1; 
+    }
+
+    article:nth-of-type(3) {
+      flex: 3;
+    }
+
+
+    .flexContainer {
+      display: flex;
+      background-color: bisque;
+    }
+
+    .flexGrowContainer {
+      display: flex;
+      align-items: stretch;
+      
+      background-color: blueviolet;
+    }
     
     h1 {
     border: solid 2px rgb(184, 22, 22); 
@@ -15,31 +62,43 @@ body {
     width: 50%;
     }
 
-   
-    
-    p{
-    
-    }
-
-    img { 
-        border: 1px solid red;
-        padding: 10px;
-        width: 250px;
-        opacity: 0.5;
-    }
-    
-
-a:link {
-    color: rgb(250, 0, 0);
-    border-style: dotted rgb(255, 4, 46);
+    a:link{
+      color: rgb(255, 0, 0);
   }
-  
-  
   a:hover {
-    color: rgb(20, 11, 187);
+      color:rgb(0, 0, 255);
   }
   
-
-  a:active {
-    color: rgb(246, 20, 20);
+  
+  p{
+  
+  
   }
+  
+  
+  .photo{
+      border: 1px;
+      border-style: solid;
+      border-width: 1px;
+      width: 250px;
+      padding: 10px;
+      opacity: .5;
+      border-color: rgb(255, 0, 0);
+  
+  }
+  .logo{
+      border: 1px;
+      border-style: solid;
+      border-width: 1px;
+      width: 250px;
+      padding: 10px;
+      opacity: .5;
+  
+      border-color: rgb(255, 0, 0);
+  }
+
+    
+    
+    
+   
+  
